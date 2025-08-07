@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    /* max-width: 1600px; */
+    /* margin: 0px auto; */ 
+}
+/* shared style  */
+.shared-describtion{
+    color: var(--Dark 02, rgba(68, 67, 67, 1));
+    font-size: 13.66px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: right;
+}
+.shared-btn{
+    width: 136.5px;
+    height: 54px;
+    border-radius: 5px;
+    background-color: rgba(241, 91, 34, 1);
+    border: none;
+}
+.shared-btn-title{
+    color: rgba(255, 255, 255, 1);
+}
+
+/* hero section  */
+.hero-section{
+    background-image: url(../images/banner/banner1.png);
+    width: 1366px;
+    height: 690px;
+    display: flex;
+}
+.hero-title{
+    width: 448px;
+    height: 195px;  
+    margin: 184px 196px 0px 721.5px;
+    color: var(--Dark 01, rgba(21, 20, 20, 1));
+    font-size: 55.5px;
+    font-weight: 600;
+    /* line-height: 100%; */
+    letter-spacing: 0%;
+    text-align: right;
+}
+.hero-describtion{
+    width: 421.7px;
+    height: 66.59px;
+    margin: 20.49px 196px 0px 747.885px;
+}
+.hero-btn{
+    margin: 27px 196px 0px 1033px;
+}
